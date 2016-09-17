@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.company.testappname" versionCode="20" version="2.0.0">
+  <name>TEST APP NAME</name>
+  <description>Description Here.</description>
+  <author href="http://www.company.com" email="none@none.com">AuthorName</author>
+  <preference name="phonegap-version" value="cli-6.3.0"/>
+  <preference name="android-build-tool" value="gradle"/>
+  <preference name="orientation" value="default"/>
+  <preference name="fullscreen" value="false"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  <preference name="android-targetSdkVersion" value="14"/>
+  <preference name="android-installLocation" value="auto"/>
+  <!--<preference name="SplashScreenDelay" value="1000"/>-->
+  <!--<preference name="BackgroundColor" value="0x000000"/>-->
+  <preference name="DisallowOverscroll" value="true"/>
+  <plugin name="cordova-plugin-inappbrowser"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <platform name="android">
+
+  </platform>
+  <icon src="icon.png"/>
+  <!-- Android Splash Screens for PhoneGap -->
+  <platform name="android">
+    <splash src="androidl.png" density="ldpi"/>
+    <splash src="androidm.png" density="mdpi"/>
+    <splash src="anroidh.png" density="hdpi"/>
+    <splash src="androidx.png" density="xhdpi"/>
+  </platform>
+</widget>
